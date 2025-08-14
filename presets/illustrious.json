@@ -1,5 +1,5 @@
 {
-    "default_model": "Illustrious-XL-v2.0.safetensors",
+    "default_model": "WAI-NSFW-illustrious-SDXL",
     "default_refiner": "None",
     "default_refiner_switch": 0.5,
     "default_loras": [
@@ -44,7 +44,7 @@
     "default_aspect_ratio": "896*1152",
     "default_overwrite_step": -1,
     "checkpoint_downloads": {
-        "Illustrious-XL-v2.0.safetensors": "https://huggingface.co/OnomaAIResearch/Illustrious-XL-v2.0/resolve/main/Illustrious-XL-v2.0.safetensors"
+        "WAI-NSFW-illustrious-SDXL": "https://civitai.com/api/download/models/1761560?type=Model&format=SafeTensor&size=pruned&fp=fp16"
     },
     "embeddings_downloads": {},
     "lora_downloads": {
