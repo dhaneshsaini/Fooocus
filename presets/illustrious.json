@@ -5,7 +5,7 @@
     "default_loras": [
         [
             true,
-            "None",
+            "https://civitai.com/api/download/models/1888209?type=Model&format=SafeTensor",
             1.0
         ],
         [
