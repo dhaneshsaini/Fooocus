@@ -1,5 +1,5 @@
 {
-    "default_model": "model.safetensors",
+    "default_model": "WAI-NSFW-illustrious-SDXL.safetensors",
     "default_refiner": "None",
     "default_refiner_switch": 0.5,
     "default_loras": [
