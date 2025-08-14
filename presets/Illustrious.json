@@ -44,7 +44,7 @@
     "default_aspect_ratio": "896*1152",
     "default_overwrite_step": -1,
     "checkpoint_downloads": {
-        "animaPencilXL_v500.safetensors": "https://civitai.com/api/download/models/2081643?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+        "Illustrious-XL-v1.1.safetensors": "https://huggingface.co/OnomaAIResearch/Illustrious-XL-v1.1/resolve/main/Illustrious-XL-v1.1.safetensors"
     },
     "embeddings_downloads": {},
     "lora_downloads": {},
