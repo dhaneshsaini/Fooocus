@@ -1,11 +1,11 @@
 {
-    "default_model": "WAI-NSFW-illustrious-SDXL",
+    "default_model": "model.safetensors",
     "default_refiner": "None",
     "default_refiner_switch": 0.5,
     "default_loras": [
         [
             true,
-            "MGE_V6.1_IL_Final_R1",
+            "MGE_V6.1_IL_Final_R1.safetensors",
             1.0
         ],
         [
