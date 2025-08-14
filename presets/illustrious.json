@@ -44,7 +44,7 @@
     "default_aspect_ratio": "896*1152",
     "default_overwrite_step": -1,
     "checkpoint_downloads": {
-        "WAI-NSFW-illustrious-SDXL": "https://civitai.com/api/download/models/1761560?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+        "WAI-NSFW-illustrious-SDXL.safetensors": "https://huggingface.co/dhaneshsaini/WAI-NSFW-illustrious-SDXL/resolve/main/model.safetensors"
     },
     "embeddings_downloads": {},
     "lora_downloads": {
