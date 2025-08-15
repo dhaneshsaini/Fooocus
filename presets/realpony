@@ -6,11 +6,11 @@
         [
             true,
             "Realism-Lora-Pony.safetensors",
-            0
+            0.1
         ],
         [
             true,
-            "Realism_Lora_By_Stable_Yogi_Pony_V1..safetensors",
+            "Realism_Lora_By_Stable_Yogi_Pony_V1.safetensors",
             1.0
         ],
         [
@@ -49,7 +49,7 @@
     "embeddings_downloads": {},
     "lora_downloads": {
         "Realism-Lora-Pony.safetensors": "https://huggingface.co/dhaneshsaini/Porn-Craft-By-Stable-Yogi/resolve/main/Realism-Lora-Pony.safetensors",
-        "Realism_Lora_By_Stable_Yogi_Pony_V1..safetensors": "https://huggingface.co/dhaneshsaini/Porn-Craft-By-Stable-Yogi/resolve/main/Realism_Lora_By_Stable_Yogi_Pony_V1..safetensors"
+        "Realism_Lora_By_Stable_Yogi_Pony_V1.safetensors": "https://huggingface.co/dhaneshsaini/Porn-Craft-By-Stable-Yogi/resolve/main/Realism_Lora_By_Stable_Yogi_Pony_V1.safetensors"
     },
     "previous_default_models": []
 }
