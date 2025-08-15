@@ -44,7 +44,7 @@
     "default_aspect_ratio": "896*1152",
     "default_overwrite_step": -1,
     "checkpoint_downloads": {
-        "Instagoon-v1-step00001400.safetensors": "https://civitai.com/api/download/models/2078049?type=Model&format=SafeTensor"
+        "Instagoon-v1-step00001400.safetensors": "https://huggingface.co/dhaneshsaini/instagooner-v1/resolve/main/Instagoon-v1-step00001400.safetensors"
     },
     "embeddings_downloads": {},
     "lora_downloads": {
