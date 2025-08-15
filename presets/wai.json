@@ -9,23 +9,23 @@
             1.0
         ],
         [
-            true,
-            "None",
+            false,
+            "MCJB_IL_V2.0_Final.safetensors",
             1.0
         ],
         [
-            true,
-            "None",
+            false,
+            "SC_V4.0_IL_Final.safetensors",
             1.0
         ],
         [
-            true,
-            "None",
+            false,
+            "Undressing20XL20v1.0.safetensors",
             1.0
         ],
         [
-            true,
-            "None",
+            false,
+            "midis_ExpressiveLanguageLovingit_V0.55D.safetensors",
             1.0
         ]
     ],
@@ -40,7 +40,11 @@
     "default_aspect_ratio": "896*1152",
     "default_overwrite_step": -1,
     "checkpoint_downloads": {
-        "WAI-NSFW-illustrious-SDXL.safetensors": "https://huggingface.co/dhaneshsaini/WAI-NSFW-illustrious-SDXL/resolve/main/model.safetensors"
+        "WAI-NSFW-illustrious-SDXL.safetensors": "https://huggingface.co/dhaneshsaini/WAI-NSFW-illustrious-SDXL/resolve/main/model.safetensors",
+        "SC_V4.0_IL_Final.safetensors": "https://huggingface.co/dhaneshsaini/mge-monster-girls/resolve/main/SC_V4.0_IL_Final.safetensors",
+        "MCJB_IL_V2.0_Final.safetensors": "https://huggingface.co/dhaneshsaini/mge-monster-girls/resolve/main/MCJB_IL_V2.0_Final.safetensors",
+        "Undressing20XL20v1.0.safetensors": "https://huggingface.co/dhaneshsaini/illustrious-lora-list/resolve/main/Undressing%20-%20XL%20IL%20v1.0.safetensors",
+        "midis_ExpressiveLanguageLovingit_V0.55D.safetensors": "https://huggingface.co/dhaneshsaini/illustrious-lora-list/resolve/main/midis_ExpressiveLanguageLovingit_V0.5%5BIL%5D.safetensors",
     },
     "embeddings_downloads": {},
     "lora_downloads": {
