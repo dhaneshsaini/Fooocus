@@ -10,22 +10,22 @@
         ],
         [
             false,
-            "MCJB_IL_V2.0_Final.safetensors",
+            "none",
             1.0
         ],
         [
             false,
-            "SC_V4.0_IL_Final.safetensors",
+            "none",
             1.0
         ],
         [
             false,
-            "Undressing20XL20v1.0.safetensors",
+            "none",
             1.0
         ],
         [
             false,
-            "midis_ExpressiveLanguageLovingit_V0.55D.safetensors",
+            "none",
             1.0
         ]
     ],
@@ -44,7 +44,7 @@
         "SC_V4.0_IL_Final.safetensors": "https://huggingface.co/dhaneshsaini/mge-monster-girls/resolve/main/SC_V4.0_IL_Final.safetensors",
         "MCJB_IL_V2.0_Final.safetensors": "https://huggingface.co/dhaneshsaini/mge-monster-girls/resolve/main/MCJB_IL_V2.0_Final.safetensors",
         "Undressing20XL20v1.0.safetensors": "https://huggingface.co/dhaneshsaini/illustrious-lora-list/resolve/main/Undressing%20-%20XL%20IL%20v1.0.safetensors",
-        "midis_ExpressiveLanguageLovingit_V0.55D.safetensors": "https://huggingface.co/dhaneshsaini/illustrious-lora-list/resolve/main/midis_ExpressiveLanguageLovingit_V0.5%5BIL%5D.safetensors",
+        "midis_ExpressiveLanguageLovingit_V0.55D.safetensors": "https://huggingface.co/dhaneshsaini/illustrious-lora-list/resolve/main/midis_ExpressiveLanguageLovingit_V0.5%5BIL%5D.safetensors"
     },
     "embeddings_downloads": {},
     "lora_downloads": {
