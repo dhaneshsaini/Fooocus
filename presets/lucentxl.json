@@ -1,0 +1,54 @@
+{
+    "default_model": "LucentXL-Pony-klaabu.safetensors",
+    "default_refiner": "None",
+    "default_refiner_switch": 0.5,
+    "default_loras": [
+        [
+            true,
+            "ILXL_Realism_Slider_V.1.safetensors",
+            1.0
+        ],
+        [
+            true,
+            "RealSkin_xxXL_v1.safetensors",
+            1.5
+        ],
+        [
+            true,
+            "Breast_Size_Slider.safetensors",
+            0.1
+        ],
+        [
+            true,
+            "amateur_style_v1_pony.safetensors",
+            0.1
+        ],
+        [
+            true,
+            "puffytits_PONY_v1.safetensors",
+            0.1
+        ]
+    ],
+    "default_cfg_scale": 4.5,
+    "default_sample_sharpness": 2.0,
+    "default_sampler": "dpmpp_sde",
+    "default_scheduler": "karras",
+    "default_performance": "Speed",
+    "default_prompt": "",
+    "default_prompt_negative": "unrealistic, saturated, high contrast, big nose, painting, drawing, sketch, cartoon, anime, manga, render, CG, 3d, watermark, signature, label",
+    "default_styles": [],
+    "default_aspect_ratio": "896*1152",
+    "default_overwrite_step": -1,
+    "checkpoint_downloads": {
+        "LucentXL-Pony-klaabu.safetensors": "https://huggingface.co/dhaneshsaini/LucentXL-Pony-klaabu/resolve/main/LucentXL-Pony-klaabu.safetensors"
+    },
+    "embeddings_downloads": {},
+    "lora_downloads": {
+        "Realism-Lora-Pony.safetensors": "https://huggingface.co/dhaneshsaini/LucentXL-Pony-klaabu/resolve/main/ILXL_Realism_Slider_V.1.safetensors",
+        "RealSkin_xxXL_v1.safetensors": "https://huggingface.co/dhaneshsaini/LucentXL-Pony-klaabu/resolve/main/RealSkin_xxXL_v1.safetensors",
+        "Breast_Size_Slider.safetensors": "https://huggingface.co/dhaneshsaini/Porn-Craft-By-Stable-Yogi/resolve/main/Breast_Size_Slider.safetensors",
+        "amateur_style_v1_pony.safetensors": "https://huggingface.co/dhaneshsaini/Porn-Craft-By-Stable-Yogi/resolve/main/amateur_style_v1_pony.safetensors",
+        "puffytits_PONY_v1.safetensors": "https://huggingface.co/dhaneshsaini/Porn-Craft-By-Stable-Yogi/resolve/main/puffytits_PONY_v1.safetensors"
+    },
+    "previous_default_models": []
+}
