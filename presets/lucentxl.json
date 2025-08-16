@@ -40,6 +40,16 @@
         ],
         [
             true,
+            "Point_and_shoot_v0.1.safetensors",
+            0.1
+        ],
+        [
+            true,
+            "detailed_pussy-10.safetensors",
+            0.1
+        ],
+        [
+            true,
             "body_weight_slider_v1.safetensors",
             0.1
         ]
@@ -67,7 +77,9 @@
         "body_weight_slider_v1.safetensors": "https://huggingface.co/dhaneshsaini/LucentXL-Pony-klaabu/resolve/main/body_weight_slider_v1.safetensors",
         "Point_and_shoot_v0.1.safetensors": "https://huggingface.co/dhaneshsaini/LucentXL-Pony-klaabu/resolve/main/Point_and_shoot_v0.1.safetensors",
         "Add_Details_v1.2.safetensors": "https://huggingface.co/dhaneshsaini/LucentXL-Pony-klaabu/resolve/main/Add_Details_v1.2.safetensors",
-        "Spray_Tan_Slider_Pony.safetensors": "https://huggingface.co/dhaneshsaini/LucentXL-Pony-klaabu/resolve/main/Spray_Tan_Slider_Pony.safetensors"
+        "Spray_Tan_Slider_Pony.safetensors": "https://huggingface.co/dhaneshsaini/LucentXL-Pony-klaabu/resolve/main/Spray_Tan_Slider_Pony.safetensors",
+        "Panty_Pull_Pony.safetensors": "https://huggingface.co/dhaneshsaini/LucentXL-Pony-klaabu/resolve/main/Panty_Pull_Pony.safetensors",
+        "detailed_pussy-10.safetensors": "https://huggingface.co/dhaneshsaini/LucentXL-Pony-klaabu/resolve/main/detailed_pussy-10.safetensors"
     },
     "previous_default_models": []
 }
