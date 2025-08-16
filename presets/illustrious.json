@@ -36,11 +36,7 @@
     "default_performance": "Speed",
     "default_prompt": "",
     "default_prompt_negative": "",
-    "default_styles": [
-        "Fooocus V2",
-        "Fooocus Semi Realistic",
-        "Fooocus Masterpiece"
-    ],
+    "default_styles": [],
     "default_aspect_ratio": "896*1152",
     "default_overwrite_step": -1,
     "checkpoint_downloads": {
@@ -50,6 +46,5 @@
     "lora_downloads": {
         "sd_xl_offset_example-lora_1.0.safetensors": "https://huggingface.co/dhaneshsaini/mge-monster-girls/resolve/main/MGE_V6.1_IL_Final_R1.safetensors"
     },
-    "lora_downloads": {},
     "previous_default_models": []
 }
