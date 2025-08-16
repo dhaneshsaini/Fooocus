@@ -27,7 +27,22 @@
             true,
             "puffytits_PONY_v1.safetensors",
             0.1
-        ]
+        ],
+        [
+            true,
+            "Spray_Tan_Slider_Pony.safetensors",
+            0.1
+        ],
+        [
+            true,
+            "Add_Details_v1.2.safetensors",
+            0.1
+        ],
+        [
+            true,
+            "body_weight_slider_v1.safetensors",
+            0.1
+        ],
     ],
     "default_cfg_scale": 4.5,
     "default_sample_sharpness": 2.0,
@@ -51,7 +66,8 @@
         "puffytits_PONY_v1.safetensors": "https://huggingface.co/dhaneshsaini/Porn-Craft-By-Stable-Yogi/resolve/main/puffytits_PONY_v1.safetensors",
         "body_weight_slider_v1.safetensors": "https://huggingface.co/dhaneshsaini/LucentXL-Pony-klaabu/resolve/main/body_weight_slider_v1.safetensors",
         "Point_and_shoot_v0.1.safetensors": "https://huggingface.co/dhaneshsaini/LucentXL-Pony-klaabu/resolve/main/Point_and_shoot_v0.1.safetensors",
-        "Add_Details_v1.2.safetensors": "https://huggingface.co/dhaneshsaini/LucentXL-Pony-klaabu/resolve/main/Add_Details_v1.2.safetensors"
+        "Add_Details_v1.2.safetensors": "https://huggingface.co/dhaneshsaini/LucentXL-Pony-klaabu/resolve/main/Add_Details_v1.2.safetensors",
+        "Spray_Tan_Slider_Pony.safetensors": "https://huggingface.co/dhaneshsaini/LucentXL-Pony-klaabu/resolve/main/Spray_Tan_Slider_Pony.safetensors"
     },
     "previous_default_models": []
 }
