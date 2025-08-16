@@ -1,1 +1,89 @@
-
+{
+    "default_model": "Real-Dream.safetensors",
+    "default_refiner": "None",
+    "default_refiner_switch": 0.5,
+    "default_loras": [
+        [
+            true,
+            "ILXL_Realism_Slider_V.1.safetensors",
+            1.0
+        ],
+        [
+            true,
+            "RealSkin_xxXL_v1.safetensors",
+            1.5
+        ],
+        [
+            true,
+            "Breast_Size_Slider.safetensors",
+            0.1
+        ],
+        [
+            true,
+            "amateur_style_v1_pony.safetensors",
+            0.1
+        ],
+        [
+            true,
+            "puffytits_PONY_v1.safetensors",
+            0.1
+        ],
+        [
+            true,
+            "Spray_Tan_Slider_Pony.safetensors",
+            0.1
+        ],
+        [
+            true,
+            "Add_Details_v1.2.safetensors",
+            0.1
+        ],
+        [
+            true,
+            "Point_and_shoot_v0.1.safetensors",
+            0.1
+        ],
+        [
+            true,
+            "Dramatic_Lighting_Slider.safetensors",
+            1.1
+        ],
+        [
+            true,
+            "body_weight_slider_v1.safetensors",
+            0.1
+        ]
+    ],
+    "default_cfg_scale": 5,
+    "default_sample_sharpness": 2.0,
+    "default_sampler": "dpmpp_2m",
+    "default_scheduler": "karras",
+    "default_performance": "Speed",
+    "default_prompt": "",
+    "default_prompt_negative": "unrealistic, saturated, high contrast, big nose, painting, drawing, sketch, cartoon, anime, manga, render, CG, 3d, watermark, signature, label",
+    "default_styles": [],
+    "default_aspect_ratio": "896*1152",
+    "default_overwrite_step": -1,
+    "checkpoint_downloads": {
+        "LucentXL-Pony-klaabu.safetensors": "https://huggingface.co/dhaneshsaini/Real-Dream/resolve/main/Real-Dream.safetensors"
+    },
+    "embeddings_downloads": {},
+    "lora_downloads": {
+        "Realism-Lora-Pony.safetensors": "https://huggingface.co/dhaneshsaini/LucentXL-Pony-klaabu/resolve/main/ILXL_Realism_Slider_V.1.safetensors",
+        "RealSkin_xxXL_v1.safetensors": "https://huggingface.co/dhaneshsaini/LucentXL-Pony-klaabu/resolve/main/RealSkin_xxXL_v1.safetensors",
+        "Breast_Size_Slider.safetensors": "https://huggingface.co/dhaneshsaini/Porn-Craft-By-Stable-Yogi/resolve/main/Breast_Size_Slider.safetensors",
+        "amateur_style_v1_pony.safetensors": "https://huggingface.co/dhaneshsaini/Porn-Craft-By-Stable-Yogi/resolve/main/amateur_style_v1_pony.safetensors",
+        "puffytits_PONY_v1.safetensors": "https://huggingface.co/dhaneshsaini/Porn-Craft-By-Stable-Yogi/resolve/main/puffytits_PONY_v1.safetensors",
+        "body_weight_slider_v1.safetensors": "https://huggingface.co/dhaneshsaini/LucentXL-Pony-klaabu/resolve/main/body_weight_slider_v1.safetensors",
+        "Point_and_shoot_v0.1.safetensors": "https://huggingface.co/dhaneshsaini/LucentXL-Pony-klaabu/resolve/main/Point_and_shoot_v0.1.safetensors",
+        "Add_Details_v1.2.safetensors": "https://huggingface.co/dhaneshsaini/LucentXL-Pony-klaabu/resolve/main/Add_Details_v1.2.safetensors",
+        "Spray_Tan_Slider_Pony.safetensors": "https://huggingface.co/dhaneshsaini/LucentXL-Pony-klaabu/resolve/main/Spray_Tan_Slider_Pony.safetensors",
+        "Panty_Pull_Pony.safetensors": "https://huggingface.co/dhaneshsaini/LucentXL-Pony-klaabu/resolve/main/Panty_Pull_Pony.safetensors",
+        "detailed_pussy-10.safetensors": "https://huggingface.co/dhaneshsaini/LucentXL-Pony-klaabu/resolve/main/detailed_pussy-10.safetensors",
+        "RawCam_250_v1.safetensors": "https://huggingface.co/dhaneshsaini/LucentXL-Pony-klaabu/resolve/main/RawCam_250_v1.safetensors",
+        "Perfect_Booty_XL_V1.safetensors": "https://huggingface.co/dhaneshsaini/LucentXL-Pony-klaabu/resolve/main/Perfect_Booty_XL_V1.safetensors",
+        "Dramatic_Lighting_Slider.safetensors": "https://huggingface.co/dhaneshsaini/LucentXL-Pony-klaabu/resolve/main/Dramatic_Lighting_Slider.safetensors",
+        "Real_Beauty.safetensors": "https://huggingface.co/dhaneshsaini/Real-Dream/resolve/main/Real_Beauty.safetensors"
+    },
+    "previous_default_models": []
+}
