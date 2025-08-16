@@ -25,8 +25,8 @@
         ],
         [
             true,
-            "None",
-            1.0
+            "puffytits_PONY_v1.safetensors",
+            0.1
         ]
     ],
     "default_cfg_scale": 4.5,
@@ -51,7 +51,8 @@
         "Realism-Lora-Pony.safetensors": "https://huggingface.co/dhaneshsaini/Porn-Craft-By-Stable-Yogi/resolve/main/Realism-Lora-Pony.safetensors",
         "Realism_Lora_By_Stable_Yogi_Pony_V1.safetensors": "https://huggingface.co/dhaneshsaini/Porn-Craft-By-Stable-Yogi/resolve/main/Realism_Lora_By_Stable_Yogi_Pony_V1.safetensors",
         "Breast_Size_Slider.safetensors": "https://huggingface.co/dhaneshsaini/Porn-Craft-By-Stable-Yogi/resolve/main/Breast_Size_Slider.safetensors",
-        "amateur_style_v1_pony.safetensors": "https://huggingface.co/dhaneshsaini/Porn-Craft-By-Stable-Yogi/resolve/main/amateur_style_v1_pony.safetensors"
+        "amateur_style_v1_pony.safetensors": "https://huggingface.co/dhaneshsaini/Porn-Craft-By-Stable-Yogi/resolve/main/amateur_style_v1_pony.safetensors",
+        "puffytits_PONY_v1.safetensors": "https://huggingface.co/dhaneshsaini/Porn-Craft-By-Stable-Yogi/resolve/main/puffytits_PONY_v1.safetensors"
     },
     "previous_default_models": []
 }
