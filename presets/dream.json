@@ -65,7 +65,7 @@
     "default_aspect_ratio": "896*1152",
     "default_overwrite_step": -1,
     "checkpoint_downloads": {
-        "LucentXL-Pony-klaabu.safetensors": "https://huggingface.co/dhaneshsaini/Real-Dream/resolve/main/Real-Dream.safetensors"
+        "Real-Dream.safetensors": "https://huggingface.co/dhaneshsaini/Real-Dream/resolve/main/Real-Dream.safetensors"
     },
     "embeddings_downloads": {},
     "lora_downloads": {
