@@ -1,1 +1,69 @@
-
+{
+    "default_model": "porn-craft.safetensors",
+    "default_refiner": "None",
+    "default_refiner_switch": 0.5,
+    "default_loras": [
+        [
+            true,
+            "Realism_Lora_By_Stable_Yogi_Pony_V1.safetensors",
+            1.0
+        ],
+        [
+            true,
+            "Realism-Lora-Pony.safetensors",
+            0.1
+        ],
+        [
+            true,
+            "Breast_Size_Slider.safetensors",
+            0.1
+        ],
+        [
+            true,
+            "amateur_style_v1_pony.safetensors",
+            0.1
+        ],
+        [
+            true,
+            "puffytits_PONY_v1.safetensors",
+            0.1
+        ]
+    ],
+    "default_cfg_scale": 4.5,
+    "default_sample_sharpness": 2.0,
+    "default_sampler": "dpmpp_2m_sde_gpu",
+    "default_scheduler": "karras",
+    "default_performance": "Speed",
+    "default_prompt": "",
+    "default_prompt_negative": "unrealistic, saturated, high contrast, big nose, painting, drawing, sketch, cartoon, anime, manga, render, CG, 3d, watermark, signature, label",
+    "default_styles": [
+        "Fooocus V2",
+        "Fooocus Photograph",
+        "Fooocus Negative"
+    ],
+    "default_aspect_ratio": "896*1152",
+    "default_overwrite_step": -1,
+    "checkpoint_downloads": {
+        "porn-craft.safetensors": "https://huggingface.co/dhaneshsaini/Porn-Craft-By-Stable-Yogi/resolve/main/porn-craft.safetensors"
+    },
+    "embeddings_downloads": {},
+    "lora_downloads": {
+        "Realism-Lora-Pony.safetensors": "https://huggingface.co/dhaneshsaini/Porn-Craft-By-Stable-Yogi/resolve/main/Realism-Lora-Pony.safetensors",
+        "Realism_Lora_By_Stable_Yogi_Pony_V1.safetensors": "https://huggingface.co/dhaneshsaini/Porn-Craft-By-Stable-Yogi/resolve/main/Realism_Lora_By_Stable_Yogi_Pony_V1.safetensors",
+        "Breast_Size_Slider.safetensors": "https://huggingface.co/dhaneshsaini/Porn-Craft-By-Stable-Yogi/resolve/main/Breast_Size_Slider.safetensors",
+        "amateur_style_v1_pony.safetensors": "https://huggingface.co/dhaneshsaini/Porn-Craft-By-Stable-Yogi/resolve/main/amateur_style_v1_pony.safetensors",
+        "puffytits_PONY_v1.safetensors": "https://huggingface.co/dhaneshsaini/Porn-Craft-By-Stable-Yogi/resolve/main/puffytits_PONY_v1.safetensors",
+        "body_weight_slider_v1.safetensors": "https://huggingface.co/dhaneshsaini/LucentXL-Pony-klaabu/resolve/main/body_weight_slider_v1.safetensors",
+        "Point_and_shoot_v0.1.safetensors": "https://huggingface.co/dhaneshsaini/LucentXL-Pony-klaabu/resolve/main/Point_and_shoot_v0.1.safetensors",
+        "Add_Details_v1.2.safetensors": "https://huggingface.co/dhaneshsaini/LucentXL-Pony-klaabu/resolve/main/Add_Details_v1.2.safetensors",
+        "Spray_Tan_Slider_Pony.safetensors": "https://huggingface.co/dhaneshsaini/LucentXL-Pony-klaabu/resolve/main/Spray_Tan_Slider_Pony.safetensors",
+        "Panty_Pull_Pony.safetensors": "https://huggingface.co/dhaneshsaini/LucentXL-Pony-klaabu/resolve/main/Panty_Pull_Pony.safetensors",
+        "detailed_pussy-10.safetensors": "https://huggingface.co/dhaneshsaini/LucentXL-Pony-klaabu/resolve/main/detailed_pussy-10.safetensors",
+        "RawCam_250_v1.safetensors": "https://huggingface.co/dhaneshsaini/LucentXL-Pony-klaabu/resolve/main/RawCam_250_v1.safetensors",
+        "Perfect_Booty_XL_V1.safetensors": "https://huggingface.co/dhaneshsaini/LucentXL-Pony-klaabu/resolve/main/Perfect_Booty_XL_V1.safetensors",
+        "Dramatic_Lighting_Slider.safetensors": "https://huggingface.co/dhaneshsaini/LucentXL-Pony-klaabu/resolve/main/Dramatic_Lighting_Slider.safetensors",
+        "Real_Beauty.safetensors": "https://huggingface.co/dhaneshsaini/Real-Dream/resolve/main/Real_Beauty.safetensors",
+        "Hand_pony_style_v1.safetensors": "https://huggingface.co/dhaneshsaini/LucentXL-Pony-klaabu/resolve/main/Hand_pony_style_v1.safetensors"
+    },
+    "previous_default_models": []
+}
