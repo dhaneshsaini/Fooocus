@@ -1,31 +1,31 @@
 {
-    "default_model": "porn-craft.safetensors",
+    "default_model": "Pandora-FLUX.safetensors",
     "default_refiner": "None",
     "default_refiner_switch": 0.5,
     "default_loras": [
         [
             true,
-            "Realism_Lora_By_Stable_Yogi_Pony_V1.safetensors",
+            "Pandora-RAW-Realism.safetensors",
             1.0
         ],
         [
             true,
-            "Realism-Lora-Pony.safetensors",
+            "None",
             0.1
         ],
         [
             true,
-            "Breast_Size_Slider.safetensors",
+            "None",
             0.1
         ],
         [
             true,
-            "amateur_style_v1_pony.safetensors",
+            "None",
             0.1
         ],
         [
             true,
-            "puffytits_PONY_v1.safetensors",
+            "None",
             0.1
         ]
     ],
@@ -36,19 +36,15 @@
     "default_performance": "Speed",
     "default_prompt": "",
     "default_prompt_negative": "unrealistic, saturated, high contrast, big nose, painting, drawing, sketch, cartoon, anime, manga, render, CG, 3d, watermark, signature, label",
-    "default_styles": [
-        "Fooocus V2",
-        "Fooocus Photograph",
-        "Fooocus Negative"
-    ],
-    "default_aspect_ratio": "896*1152",
+    "default_styles": [],
+    "default_aspect_ratio": "768*1024",
     "default_overwrite_step": -1,
     "checkpoint_downloads": {
-        "porn-craft.safetensors": "https://huggingface.co/dhaneshsaini/Porn-Craft-By-Stable-Yogi/resolve/main/porn-craft.safetensors"
+        "Pandora-FLUX.safetensors": "https://huggingface.co/dhaneshsaini/Pandora-FLUX/resolve/main/Pandora-FLUX.safetensors"
     },
     "embeddings_downloads": {},
     "lora_downloads": {
-        "": "",
+        "Pandora-RAW-Realism.safetensors": "https://huggingface.co/dhaneshsaini/Pandora-FLUX/resolve/main/Pandora-RAW-Realism.safetensors",
     },
     "previous_default_models": []
 }
