@@ -44,7 +44,7 @@
     },
     "embeddings_downloads": {},
     "lora_downloads": {
-        "Pandora-RAW-Realism.safetensors": "https://huggingface.co/dhaneshsaini/Pandora-FLUX/resolve/main/Pandora-RAW-Realism.safetensors",
+        "Pandora-RAW-Realism.safetensors": "https://huggingface.co/dhaneshsaini/Pandora-FLUX/resolve/main/Pandora-RAW-Realism.safetensors"
     },
     "previous_default_models": []
 }
