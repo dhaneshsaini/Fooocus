@@ -1,1 +1,50 @@
-
+{
+    "default_model": "Pony-Diffusion-V6-XL.safetensors",
+    "default_refiner": "None",
+    "default_refiner_switch": 0.5,
+    "default_loras": [
+        [
+            true,
+            "SummertimeSagaXL.safetensors",
+            0.85
+        ],
+        [
+            true,
+            "None",
+            1.0
+        ],
+        [
+            true,
+            "None",
+            1.0
+        ],
+        [
+            true,
+            "None",
+            1.0
+        ],
+        [
+            true,
+            "None",
+            1.0
+        ]
+    ],
+    "default_cfg_scale": 4.3,
+    "default_sample_sharpness": 2.0,
+    "default_sampler": "euler_ancestral",
+    "default_scheduler": "karras",
+    "default_performance": "Speed",
+    "default_prompt": "",
+    "default_prompt_negative": "(worst quality, low quality), simple background, bad anatomy, ugly, deformed, bad quality, amateur drawing, beginner drawing, deformed, bad anatomy, deformed, white background, deformed hands, deformed feet, ugly eyes, badly drawn eyes, ugly pupils, ugly tits, watermark, asian, white eyes, blurry background, showing breasts, nipples,",
+    "default_styles": [],
+    "default_aspect_ratio": "896*1152",
+    "default_overwrite_step": -1,
+    "checkpoint_downloads": {
+        "Pony-Diffusion-V6-XL.safetensors": "https://huggingface.co/dhaneshsaini/Pony-Diffusion-V6-XL/blob/main/Pony-Diffusion-V6-XL.safetensors"
+    },
+    "embeddings_downloads": {},
+    "lora_downloads": {
+        "SummertimeSagaXL.safetensors": "https://huggingface.co/dhaneshsaini/Pony-Diffusion-V6-XL/resolve/main/SummertimeSagaXL.safetensors"
+    },
+    "previous_default_models": []
+}
