@@ -40,7 +40,7 @@
     "default_aspect_ratio": "896*1152",
     "default_overwrite_step": -1,
     "checkpoint_downloads": {
-        "Pony-Diffusion-V6-XL.safetensors": "https://huggingface.co/dhaneshsaini/Pony-Diffusion-V6-XL/blob/main/Pony-Diffusion-V6-XL.safetensors"
+        "Pony-Diffusion-V6-XL.safetensors": "https://huggingface.co/dhaneshsaini/Pony-Diffusion-V6-XL/resolve/main/Pony-Diffusion-V6-XL.safetensors"
     },
     "embeddings_downloads": {},
     "lora_downloads": {
