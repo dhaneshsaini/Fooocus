@@ -9,22 +9,47 @@
             0.85
         ],
         [
-            true,
+            false,
             "None",
             1.0
         ],
         [
-            true,
+            false,
             "None",
             1.0
         ],
         [
-            true,
+            false,
             "None",
             1.0
         ],
         [
-            true,
+            false,
+            "None",
+            1.0
+        ],
+        [
+            false,
+            "None",
+            1.0
+        ],
+        [
+            false,
+            "None",
+            1.0
+        ],
+        [
+            false,
+            "None",
+            1.0
+        ],
+        [
+            false,
+            "None",
+            1.0
+        ],
+        [
+            false,
             "None",
             1.0
         ]
@@ -44,7 +69,9 @@
     },
     "embeddings_downloads": {},
     "lora_downloads": {
-        "SummertimeSagaXL.safetensors": "https://huggingface.co/dhaneshsaini/Pony-Diffusion-V6-XL/resolve/main/SummertimeSagaXL.safetensors"
+        "SummertimeSagaXL.safetensors": "https://huggingface.co/dhaneshsaini/Pony-Diffusion-V6-XL/resolve/main/SummertimeSagaXL.safetensors",
+        "Debbie.safetensors": "https://huggingface.co/dhaneshsaini/Pony-Diffusion-V6-XL/resolve/main/Debbie.safetensors",
+        "Anon.safetensors": "https://huggingface.co/dhaneshsaini/Pony-Diffusion-V6-XL/resolve/main/Anon.safetensors"
     },
     "previous_default_models": []
 }
