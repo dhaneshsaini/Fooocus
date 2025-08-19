@@ -71,7 +71,13 @@
     "lora_downloads": {
         "SummertimeSagaXL.safetensors": "https://huggingface.co/dhaneshsaini/Pony-Diffusion-V6-XL/resolve/main/SummertimeSagaXL.safetensors",
         "Debbie.safetensors": "https://huggingface.co/dhaneshsaini/Pony-Diffusion-V6-XL/resolve/main/Debbie.safetensors",
-        "Anon.safetensors": "https://huggingface.co/dhaneshsaini/Pony-Diffusion-V6-XL/resolve/main/Anon.safetensors"
+        "Anon.safetensors": "https://huggingface.co/dhaneshsaini/Pony-Diffusion-V6-XL/resolve/main/Anon.safetensors",
+        "Roxxy.safetensors": "https://huggingface.co/dhaneshsaini/Pony-Diffusion-V6-XL/resolve/main/Roxxy.safetensors",
+        "Maria.safetensors": "https://huggingface.co/dhaneshsaini/Pony-Diffusion-V6-XL/resolve/main/Maria.safetensors",
+        "Mia.safetensors": "https://huggingface.co/dhaneshsaini/Pony-Diffusion-V6-XL/resolve/main/Mia.safetensors",
+        "Diane.safetensors": "https://huggingface.co/dhaneshsaini/Pony-Diffusion-V6-XL/resolve/main/Diane.safetensors",
+        "Jenny.safetensors": "https://huggingface.co/dhaneshsaini/Pony-Diffusion-V6-XL/resolve/main/Jenny.safetensors",
+        "Eve.safetensors": "https://huggingface.co/dhaneshsaini/Pony-Diffusion-V6-XL/resolve/main/Eve.safetensors"
     },
     "previous_default_models": []
 }
