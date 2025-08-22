@@ -44,7 +44,7 @@
     "default_aspect_ratio": "896*1152",
     "default_overwrite_step": -1,
     "checkpoint_downloads": {
-        "realisticStockPhoto_v20.safetensors": "https://huggingface.co/lllyasviel/fav_models/resolve/main/fav/realisticStockPhoto_v20.safetensors"
+        "realisticStockPhoto_v20.safetensors": "https://huggingface.co/lllyasviel/fav_models/resolve/main/fav/realisticStockPhoto_v20.safetensors",
         "Aesthetically_Pleasant_Porn_SDXL_by_Sarcastic_TOFU": "https://civitai.com/api/download/models/472855?type=Model&token=57e01a79f3ff8a9a73df47563a37a606"
     },
     "embeddings_downloads": {},
