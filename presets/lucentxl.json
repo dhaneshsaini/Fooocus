@@ -9,47 +9,47 @@
             1.0
         ],
         [
-            true,
+            false,
             "RealSkin_xxXL_v1.safetensors",
             1.5
         ],
         [
-            true,
+            false,
             "Breast_Size_Slider.safetensors",
             0.1
         ],
         [
-            true,
+            false,
             "amateur_style_v1_pony.safetensors",
             0.1
         ],
         [
-            true,
+            false,
             "puffytits_PONY_v1.safetensors",
             0.1
         ],
         [
-            true,
+            false,
             "Spray_Tan_Slider_Pony.safetensors",
             0.1
         ],
         [
-            true,
+            false,
             "Add_Details_v1.2.safetensors",
             0.1
         ],
         [
-            true,
+            false,
             "Point_and_shoot_v0.1.safetensors",
             0.1
         ],
         [
-            true,
+            false,
             "Dramatic_Lighting_Slider.safetensors",
             1.1
         ],
         [
-            true,
+            false,
             "body_weight_slider_v1.safetensors",
             0.1
         ]
@@ -69,7 +69,7 @@
     },
     "embeddings_downloads": {},
     "lora_downloads": {
-        "Realism-Lora-Pony.safetensors": "https://huggingface.co/dhaneshsaini/LucentXL-Pony-klaabu/resolve/main/ILXL_Realism_Slider_V.1.safetensors",
+        "ILXL_Realism_Slider_V.1.safetensors": "https://huggingface.co/dhaneshsaini/LucentXL-Pony-klaabu/resolve/main/ILXL_Realism_Slider_V.1.safetensors",
         "RealSkin_xxXL_v1.safetensors": "https://huggingface.co/dhaneshsaini/LucentXL-Pony-klaabu/resolve/main/RealSkin_xxXL_v1.safetensors",
         "Breast_Size_Slider.safetensors": "https://huggingface.co/dhaneshsaini/Porn-Craft-By-Stable-Yogi/resolve/main/Breast_Size_Slider.safetensors",
         "amateur_style_v1_pony.safetensors": "https://huggingface.co/dhaneshsaini/Porn-Craft-By-Stable-Yogi/resolve/main/amateur_style_v1_pony.safetensors",
