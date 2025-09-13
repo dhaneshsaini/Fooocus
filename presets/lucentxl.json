@@ -65,7 +65,8 @@
     "default_aspect_ratio": "896*1152",
     "default_overwrite_step": -1,
     "checkpoint_downloads": {
-        "LucentXL-Pony-klaabu.safetensors": "https://huggingface.co/dhaneshsaini/LucentXL-Pony-klaabu/resolve/main/LucentXL-Pony-klaabu.safetensors"
+        "LucentXL-Pony-klaabu.safetensors": "https://huggingface.co/dhaneshsaini/LucentXL-Pony-klaabu/resolve/main/LucentXL-Pony-klaabu.safetensors",
+        "CyberRealisticPony.safetensors": "https://huggingface.co/dhaneshsaini/CyberRealisticPony/resolve/main/CyberRealisticPony.safetensors"
     },
     "embeddings_downloads": {
         "CyberRealisticPony_POSV1.safetensors": "https://huggingface.co/dhaneshsaini/LucentXL-Pony-klaabu/resolve/main/CyberRealisticPony_POSV1.safetensors",
