@@ -67,11 +67,7 @@
     "checkpoint_downloads": {
         "LucentXL-Pony-klaabu.safetensors": "https://huggingface.co/dhaneshsaini/LucentXL-Pony-klaabu/resolve/main/LucentXL-Pony-klaabu.safetensors"
     },
-    "embeddings_downloads": {
-        "CyberRealisticPony_POSV1.safetensors": "https://huggingface.co/dhaneshsaini/LucentXL-Pony-klaabu/resolve/main/CyberRealisticPony_POSV1.safetensors",
-        "CyberRealistic_Negative_PONY_V2-neg.safetensors": "https://huggingface.co/dhaneshsaini/LucentXL-Pony-klaabu/resolve/main/CyberRealistic_Negative_PONY_V2-neg.safetensors",
-        "Pony_PDXL_Negative_Embeddings.safetensors": "https://huggingface.co/dhaneshsaini/LucentXL-Pony-klaabu/resolve/main/Pony_PDXL_Negative_Embeddings.safetensors"
-    },
+    "embeddings_downloads": {},
     "lora_downloads": {
         "ILXL_Realism_Slider_V.1.safetensors": "https://huggingface.co/dhaneshsaini/LucentXL-Pony-klaabu/resolve/main/ILXL_Realism_Slider_V.1.safetensors",
         "RealSkin_xxXL_v1.safetensors": "https://huggingface.co/dhaneshsaini/LucentXL-Pony-klaabu/resolve/main/RealSkin_xxXL_v1.safetensors",
