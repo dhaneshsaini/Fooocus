@@ -27,6 +27,31 @@
             false,
             "midis_ExpressiveLanguageLovingit_V0.55D.safetensors",
             1.0
+        ],
+        [
+            false,
+            "None",
+            1.0
+        ],
+        [
+            false,
+            "None",
+            1.0
+        ],
+        [
+            false,
+            "None",
+            1.0
+        ],
+        [
+            false,
+            "None",
+            1.0
+        ],
+        [
+            false,
+            "None",
+            1.0
         ]
     ],
     "default_cfg_scale": 6.0,
@@ -48,7 +73,10 @@
         "SC_V4.0_IL_Final.safetensors": "https://huggingface.co/dhaneshsaini/mge-monster-girls/resolve/main/SC_V4.0_IL_Final.safetensors",
         "MCJB_IL_V2.0_Final.safetensors": "https://huggingface.co/dhaneshsaini/mge-monster-girls/resolve/main/MCJB_IL_V2.0_Final.safetensors",
         "Undressing20XL20v1.0.safetensors": "https://huggingface.co/dhaneshsaini/illustrious-lora-list/resolve/main/Undressing%20-%20XL%20IL%20v1.0.safetensors",
-        "midis_ExpressiveLanguageLovingit_V0.55D.safetensors": "https://huggingface.co/dhaneshsaini/illustrious-lora-list/resolve/main/midis_ExpressiveLanguageLovingit_V0.5%5BIL%5D.safetensors"
+        "midis_ExpressiveLanguageLovingit_V0.55D.safetensors": "https://huggingface.co/dhaneshsaini/illustrious-lora-list/resolve/main/midis_ExpressiveLanguageLovingit_V0.5%5BIL%5D.safetensors",
+        "Dramatic_Lighting_Slider.safetensors": "https://huggingface.co/dhaneshsaini/LucentXL-Pony-klaabu/resolve/main/Dramatic_Lighting_Slider.safetensors",
+        "Neurocore_Anime_Shadow_Circuit.safetensors": "https://huggingface.co/dhaneshsaini/WAI-NSFW-illustrious-SDXL/resolve/main/Neurocore_Anime_Shadow_Circuit.safetensors",
+        "Detailer_IL.safetensors": "https://huggingface.co/dhaneshsaini/WAI-NSFW-illustrious-SDXL/resolve/main/Detailer_IL.safetensors"
     },
     "previous_default_models": []
 }
