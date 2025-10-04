@@ -15,7 +15,7 @@
         ],
         [
             true,
-            "Desi_Coffee_V3_SD15_LoRA_prodigy_local_regs.safetensors",
+            "indian_cuties_lora_v1-10.safetensors",
             0.8
         ],
         [
@@ -46,7 +46,7 @@
     "lora_downloads": {
         "LEAKCORE.safetensors": "https://huggingface.co/dhaneshsaini/LUSTIFY/resolve/main/LEAKCORE.safetensors",
         "DesiCoffee_LoKr_V2_SDXL-step00002000.safetensors": "https://huggingface.co/dhaneshsaini/LUSTIFY/resolve/main/DesiCoffee_LoKr_V2_SDXL-step00002000.safetensors",
-        "Desi_Coffee_V3_SD15_LoRA_prodigy_local_regs.safetensors": "https://huggingface.co/dhaneshsaini/LUSTIFY/resolve/main/Desi_Coffee_V3_SD15_LoRA_prodigy_local_regs.safetensors"
+        "indian_cuties_lora_v1-10.safetensors": "https://huggingface.co/dhaneshsaini/LUSTIFY/resolve/main/indian_cuties_lora_v1-10.safetensors"
     },
     "previous_default_models": []
 }
