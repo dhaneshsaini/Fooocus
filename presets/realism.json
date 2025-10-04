@@ -10,12 +10,12 @@
         ],
         [
             true,
-            "Point_and_shoot_v0.1.safetensors",
+            "indian_cuties_lora_v1-10.safetensors",
             0.1
         ],
         [
             true,
-            "body_weight_slider_v1.safetensors",
+            "DesiCoffee_LoKr_V2_SDXL-step00002000.safetensors",
             0.1
         ],
         [
@@ -25,12 +25,7 @@
         ],
         [
             true,
-            "Panty_Pull_Pony.safetensors",
-            0.1
-        ],
-        [
-            true,
-            "amateur_style_v1_pony.safetensors",
+            "None",
             0.1
         ]
     ],
@@ -50,13 +45,8 @@
     "embeddings_downloads": {},
     "lora_downloads": {
         "Realism_Lora_By_Stable_yogi_SDXL8.1.safetensors": "https://huggingface.co/dhaneshsaini/realism-SDXL-by-stable-yogi/resolve/main/Realism_Lora_By_Stable_yogi_SDXL8.1.safetensors",
-        "amateur_style_v1_pony.safetensors": "https://huggingface.co/dhaneshsaini/Porn-Craft-By-Stable-Yogi/resolve/main/amateur_style_v1_pony.safetensors",
-        "puffytits_PONY_v1.safetensors": "https://huggingface.co/dhaneshsaini/Porn-Craft-By-Stable-Yogi/resolve/main/puffytits_PONY_v1.safetensors",
-        "body_weight_slider_v1.safetensors": "https://huggingface.co/dhaneshsaini/LucentXL-Pony-klaabu/resolve/main/body_weight_slider_v1.safetensors",
-        "Point_and_shoot_v0.1.safetensors": "https://huggingface.co/dhaneshsaini/LucentXL-Pony-klaabu/resolve/main/Point_and_shoot_v0.1.safetensors",
-        "Spray_Tan_Slider_Pony.safetensors": "https://huggingface.co/dhaneshsaini/LucentXL-Pony-klaabu/resolve/main/Spray_Tan_Slider_Pony.safetensors",
-        "Panty_Pull_Pony.safetensors": "https://huggingface.co/dhaneshsaini/LucentXL-Pony-klaabu/resolve/main/Panty_Pull_Pony.safetensors",
-        "RawCam_250_v1.safetensors": "https://huggingface.co/dhaneshsaini/LucentXL-Pony-klaabu/resolve/main/RawCam_250_v1.safetensors"
+        "indian_cuties_lora_v1-10.safetensors": "https://huggingface.co/dhaneshsaini/LUSTIFY/resolve/main/indian_cuties_lora_v1-10.safetensors",
+        "DesiCoffee_LoKr_V2_SDXL-step00002000.safetensors": "https://huggingface.co/dhaneshsaini/LUSTIFY/resolve/main/DesiCoffee_LoKr_V2_SDXL-step00002000.safetensors"
     },
     "previous_default_models": []
 }
