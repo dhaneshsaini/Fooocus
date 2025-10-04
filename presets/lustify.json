@@ -35,7 +35,7 @@
     "default_scheduler": "karras",
     "default_performance": "Thirtyfive",
     "default_prompt": "",
-    "default_prompt_negative": "",
+    "default_prompt_negative": "extra limbs, extra arms, extra hands, missing fingers, deformed hands, distorted face, mutated body, bad anatomy, unrealistic proportions, blurry, low quality, watermark, text, logo, signature, out of frame, cropped head, extra eyes, fused fingers, long neck, double face, poorly drawn, jpeg artifacts, bindi",
     "default_styles": [],
     "default_aspect_ratio": "768*1024",
     "default_overwrite_step": -1,
