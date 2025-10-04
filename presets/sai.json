@@ -10,12 +10,12 @@
         ],
         [
             true,
-            "None",
+            "indian_cuties_lora_v1-10.safetensors",
             1.0
         ],
         [
-            true,
-            "None",
+            false,
+            "DesiCoffee_LoKr_V2_SDXL-step00002000.safetensors",
             1.0
         ],
         [
@@ -48,7 +48,9 @@
     },
     "embeddings_downloads": {},
     "lora_downloads": {
-        "sd_xl_offset_example-lora_1.0.safetensors": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_offset_example-lora_1.0.safetensors"
+        "sd_xl_offset_example-lora_1.0.safetensors": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_offset_example-lora_1.0.safetensors",
+        "indian_cuties_lora_v1-10.safetensors": "https://huggingface.co/dhaneshsaini/LUSTIFY/resolve/main/indian_cuties_lora_v1-10.safetensors",
+        "DesiCoffee_LoKr_V2_SDXL-step00002000.safetensors": "https://huggingface.co/dhaneshsaini/LUSTIFY/resolve/main/DesiCoffee_LoKr_V2_SDXL-step00002000.safetensors"
     },
     "previous_default_models": []
 }
