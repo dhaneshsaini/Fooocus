@@ -4,19 +4,19 @@
     "default_refiner_switch": 0.5,
     "default_loras": [
         [
-            true,
+            false,
             "LEAKCORE.safetensors",
             1.0
         ],
         [
-            true,
+            false,
             "DesiCoffee_LoKr_V2_SDXL-step00002000.safetensors",
-            1.0
+            0.8
         ],
         [
             true,
-            "None",
-            1.0
+            "Desi_Coffee_V3_SD15_LoRA_prodigy_local_regs.safetensors",
+            0.8
         ],
         [
             true,
@@ -45,7 +45,8 @@
     "embeddings_downloads": {},
     "lora_downloads": {
         "LEAKCORE.safetensors": "https://huggingface.co/dhaneshsaini/LUSTIFY/resolve/main/LEAKCORE.safetensors",
-        "DesiCoffee_LoKr_V2_SDXL-step00002000.safetensors": "https://huggingface.co/dhaneshsaini/LUSTIFY/resolve/main/DesiCoffee_LoKr_V2_SDXL-step00002000.safetensors"
+        "DesiCoffee_LoKr_V2_SDXL-step00002000.safetensors": "https://huggingface.co/dhaneshsaini/LUSTIFY/resolve/main/DesiCoffee_LoKr_V2_SDXL-step00002000.safetensors",
+        "Desi_Coffee_V3_SD15_LoRA_prodigy_local_regs.safetensors": "https://huggingface.co/dhaneshsaini/LUSTIFY/resolve/main/Desi_Coffee_V3_SD15_LoRA_prodigy_local_regs.safetensors"
     },
     "previous_default_models": []
 }
