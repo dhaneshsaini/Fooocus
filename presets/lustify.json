@@ -10,7 +10,7 @@
         ],
         [
             true,
-            "None",
+            "DesiCoffee_LoKr_V2_SDXL-step00002000.safetensors",
             1.0
         ],
         [
@@ -44,7 +44,8 @@
     },
     "embeddings_downloads": {},
     "lora_downloads": {
-        "LEAKCORE.safetensors": "https://huggingface.co/dhaneshsaini/LUSTIFY/resolve/main/LEAKCORE.safetensors"
+        "LEAKCORE.safetensors": "https://huggingface.co/dhaneshsaini/LUSTIFY/resolve/main/LEAKCORE.safetensors",
+        "DesiCoffee_LoKr_V2_SDXL-step00002000.safetensors": "https://huggingface.co/dhaneshsaini/LUSTIFY/resolve/main/DesiCoffee_LoKr_V2_SDXL-step00002000.safetensors"
     },
     "previous_default_models": []
 }
