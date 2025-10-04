@@ -4,28 +4,28 @@
     "default_refiner_switch": 0.5,
     "default_loras": [
         [
-            true,
+            false,
             "MGE_V6.1_IL_Final_R1.safetensors",
             1.0
         ],
         [
             false,
-            "SC_V4.0_IL_Final.safetensors",
+            "DesiCoffee_LoKr_V2_SDXL-step00002000.safetensors",
+            1.0
+        ],
+        [
+            true,
+            "indian_cuties_lora_v1-10.safetensors",
             1.0
         ],
         [
             false,
-            "MCJB_IL_V2.0_Final.safetensors",
+            "None",
             1.0
         ],
         [
             false,
-            "Undressing20XL20v1.0.safetensors",
-            1.0
-        ],
-        [
-            false,
-            "midis_ExpressiveLanguageLovingit_V0.55D.safetensors",
+            "None",
             1.0
         ],
         [
@@ -77,7 +77,9 @@
         "Dramatic_Lighting_Slider.safetensors": "https://huggingface.co/dhaneshsaini/LucentXL-Pony-klaabu/resolve/main/Dramatic_Lighting_Slider.safetensors",
         "Neurocore_Anime_Shadow_Circuit.safetensors": "https://huggingface.co/dhaneshsaini/WAI-NSFW-illustrious-SDXL/resolve/main/Neurocore_Anime_Shadow_Circuit.safetensors",
         "Detailer_IL.safetensors": "https://huggingface.co/dhaneshsaini/WAI-NSFW-illustrious-SDXL/resolve/main/Detailer_IL.safetensors",
-        "AI%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88%E3%81%8A%E3%81%98%E3%81%95%E3%82%93.safetensors": "https://huggingface.co/dhaneshsaini/WAI-NSFW-illustrious-SDXL/resolve/main/AI%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88%E3%81%8A%E3%81%98%E3%81%95%E3%82%93.safetensors"
+        "AI%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88%E3%81%8A%E3%81%98%E3%81%95%E3%82%93.safetensors": "https://huggingface.co/dhaneshsaini/WAI-NSFW-illustrious-SDXL/resolve/main/AI%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88%E3%81%8A%E3%81%98%E3%81%95%E3%82%93.safetensors",
+        "DesiCoffee_LoKr_V2_SDXL-step00002000.safetensors": "https://huggingface.co/dhaneshsaini/LUSTIFY/resolve/main/DesiCoffee_LoKr_V2_SDXL-step00002000.safetensors",
+        "indian_cuties_lora_v1-10.safetensors": "https://huggingface.co/dhaneshsaini/LUSTIFY/resolve/main/indian_cuties_lora_v1-10.safetensors"
     },
     "previous_default_models": []
 }
