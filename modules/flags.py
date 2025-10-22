@@ -132,7 +132,9 @@ class OutputFormat(Enum):
 class PerformanceLoRA(Enum):
     QUALITY = None
     FIFTY = None
+    TWENTY = None
     THIRTYFIVE = None
+    FORTY = None
     SPEED = None
     EXTREME_SPEED = 'sdxl_lcm_lora.safetensors'
     LIGHTNING = 'sdxl_lightning_4step_lora.safetensors'
@@ -143,7 +145,9 @@ class Steps(IntEnum):
     QUALITY = 60
     SPEED = 30
     FIFTY = 50
+    TWENTY = 20
     THIRTYFIVE = 35
+    FORTY = 40
     EXTREME_SPEED = 8
     LIGHTNING = 4
     HYPER_SD = 4
@@ -157,7 +161,9 @@ class StepsUOV(IntEnum):
     QUALITY = 36
     SPEED = 18
     FIFTY = 50
+    TWENTY = 20
     THIRTYFIVE = 35
+    FORTY = 40
     EXTREME_SPEED = 8
     LIGHTNING = 4
     HYPER_SD = 4
@@ -167,7 +173,9 @@ class Performance(Enum):
     QUALITY = 'Quality'
     SPEED = 'Speed'
     FIFTY = 'Fifty'
+    TWENTY = 'Twenty'
     THIRTYFIVE = 'Thirtyfive'
+    FORTY = 'Forty'
     EXTREME_SPEED = 'Extreme Speed'
     LIGHTNING = 'Lightning'
     HYPER_SD = 'Hyper-SD'
