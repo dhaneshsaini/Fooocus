@@ -1,5 +1,5 @@
 {
-    "default_model": "Ultra_Realistic.safetensors",
+    "default_model": "Ultra_Realistic_Stable_Yogi_v2_0_FP32.safetensors",
     "default_refiner": "None",
     "default_refiner_switch": 0.5,
     "default_loras": [
@@ -40,7 +40,7 @@
     "default_aspect_ratio": "768*1024",
     "default_overwrite_step": -1,
     "checkpoint_downloads": {
-        "Ultra_Realistic.safetensors": "https://huggingface.co/dhaneshsaini/Ultra_Realistic_Stable_Yogi/resolve/main/Ultra_Realistic.safetensors"
+        "Ultra_Realistic_Stable_Yogi_v2_0_FP32.safetensors": "https://huggingface.co/dhaneshsaini/UltraRealSDXL/resolve/main/Ultra_Realistic_Stable_Yogi_v2_0_FP32.safetensors"
     },
     "embeddings_downloads": {},
     "lora_downloads": {
