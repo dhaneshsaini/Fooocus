@@ -4,40 +4,40 @@
     "default_refiner_switch": 0.5,
     "default_loras": [
         [
-            true,
+            false,
             "Realism_Lora_By_Stable_yogi_SDXL8.1.safetensors",
             0.5
         ],
         [
-            true,
+            false,
             "indian_cuties_lora_v1-10.safetensors",
             0.1
         ],
         [
-            true,
+            false,
             "DesiCoffee_LoKr_V2_SDXL-step00002000.safetensors",
             0.1
         ],
         [
-            true,
+            false,
             "None",
             0.1
         ],
         [
-            true,
+            false,
             "None",
             0.1
         ]
     ],
-    "default_cfg_scale": 5,
+    "default_cfg_scale": 1,
     "default_sample_sharpness": 2.0,
-    "default_sampler": "dpmpp_2m_sde",
+    "default_sampler": "lcm",
     "default_scheduler": "karras",
     "default_performance": "Speed",
     "default_prompt": "",
     "default_prompt_negative": "unrealistic, saturated, high contrast, big nose, painting, drawing, sketch, cartoon, anime, manga, render, CG, 3d, watermark, signature, label",
     "default_styles": [],
-    "default_aspect_ratio": "768*1024",
+    "default_aspect_ratio": "810*1080",
     "default_overwrite_step": -1,
     "checkpoint_downloads": {
         "Ultra_Realistic_Stable_Yogi_v2_0_FP32.safetensors": "https://huggingface.co/dhaneshsaini/UltraRealSDXL/resolve/main/Ultra_Realistic_Stable_Yogi_v2_0_FP32.safetensors"
