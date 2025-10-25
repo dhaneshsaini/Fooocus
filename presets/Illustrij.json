@@ -20,7 +20,7 @@
         ],
         [
             false,
-            "None",
+            "Elle_based_on_Rick__Morty_Anime-000009.safetensors",
             0.1
         ],
         [
@@ -46,7 +46,8 @@
     "lora_downloads": {
         "Sketch.safetensors": "https://huggingface.co/dhaneshsaini/Illustrij/resolve/main/Sketch.safetensors",
         "Blonde_Braid.safetensors": "https://huggingface.co/dhaneshsaini/Unholy_Desire/resolve/main/Blonde_Braid.safetensors",
-        "Skin.safetensors": "https://huggingface.co/dhaneshsaini/Unholy_Desire/resolve/main/Skin.safetensors"
+        "Skin.safetensors": "https://huggingface.co/dhaneshsaini/Unholy_Desire/resolve/main/Skin.safetensors",
+        "Elle_based_on_Rick__Morty_Anime-000009.safetensors": "https://huggingface.co/dhaneshsaini/Illustrij/resolve/main/Elle_based_on_Rick__Morty_Anime-000009.safetensors"
     },
     "previous_default_models": []
 }
