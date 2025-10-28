@@ -1,5 +1,9 @@
 from enum import IntEnum, Enum
 
+# ==============================
+# BASIC CONSTANTS
+# ==============================
+
 disabled = 'Disabled'
 enabled = 'Enabled'
 subtle_variation = 'Vary (Subtle)'
@@ -20,7 +24,10 @@ enhancement_uov_prompt_types = [enhancement_uov_prompt_type_original, enhancemen
 
 CIVITAI_NO_KARRAS = ["euler", "euler_ancestral", "heun", "dpm_fast", "dpm_adaptive", "ddim", "uni_pc"]
 
-# fooocus: a1111 (Civitai)
+# ==============================
+# SAMPLERS
+# ==============================
+
 KSAMPLER = {
     "euler": "Euler",
     "euler_ancestral": "Euler a",
@@ -62,13 +69,15 @@ sampler_list = SAMPLER_NAMES
 scheduler_list = SCHEDULER_NAMES
 
 clip_skip_max = 12
-
 default_vae = 'Default (model)'
-
 refiner_swap_method = 'joint'
 
 default_input_image_tab = 'uov_tab'
 input_image_tab_ids = ['uov_tab', 'ip_tab', 'inpaint_tab', 'describe_tab', 'enhance_tab', 'metadata_tab']
+
+# ==============================
+# IMAGE PROMPT / INPAINT SETTINGS
+# ==============================
 
 cn_ip = "ImagePrompt"
 cn_ip_face = "FaceSwap"
@@ -80,7 +89,7 @@ default_ip = cn_ip
 
 default_parameters = {
     cn_ip: (0.5, 0.6), cn_ip_face: (0.9, 0.75), cn_canny: (0.5, 1.0), cn_cpds: (0.5, 1.0)
-}  # stop, weight
+}
 
 output_formats = ['png', 'jpeg', 'webp']
 
@@ -98,6 +107,10 @@ describe_type_photo = 'Photograph'
 describe_type_anime = 'Art/Anime'
 describe_types = [describe_type_photo, describe_type_anime]
 
+# ==============================
+# ASPECT RATIOS
+# ==============================
+
 sdxl_aspect_ratios = [
     '704*1408', '704*1344', '768*1344', '768*1280', '832*1216', '832*1152',
     '896*1152', '896*1088', '960*1088', '960*1024', '1024*1024', '1024*960',
@@ -107,6 +120,9 @@ sdxl_aspect_ratios = [
     '896*1536', '1280*720', '2560*1440', '1500*500', '810*1080'
 ]
 
+# ==============================
+# METADATA
+# ==============================
 
 class MetadataScheme(Enum):
     FOOOCUS = 'fooocus'
@@ -129,6 +145,10 @@ class OutputFormat(Enum):
         return list(map(lambda c: c.value, cls))
 
 
+# ==============================
+# LORA + PERFORMANCE
+# ==============================
+
 class PerformanceLoRA(Enum):
     QUALITY = None
     FIFTY = None
@@ -142,35 +162,39 @@ class PerformanceLoRA(Enum):
     HYPER_SD = 'sdxl_hyper_sd_4step_lora.safetensors'
 
 
-class Steps(IntEnum):
-    QUALITY = 60
-    SPEED = 30
-    FIFTY = 50
-    TWENTY = 20
-    THIRTYFIVE = 35
-    FORTY = 40
-    TEN = 10
-    EXTREME_SPEED = 8
-    LIGHTNING = 4
-    HYPER_SD = 4
+# ==============================
+# SLIDER-BASED STEPS
+# ==============================
+
+class Steps:
+    """Dynamic Steps Slider (1–60)"""
+    MIN = 1
+    MAX = 60
+    DEFAULT = 30
+    _value = DEFAULT
 
     @classmethod
-    def keys(cls) -> list:
-        return list(map(lambda c: c, Steps.__members__))
+    def set_slider(cls, value: int):
+        cls._value = max(cls.MIN, min(cls.MAX, value))
+        return cls._value
+
+    @classmethod
+    def get_slider(cls):
+        return cls._value
+
+    @classmethod
+    def slider_range(cls):
+        return cls.MIN, cls.MAX
 
 
-class StepsUOV(IntEnum):
-    QUALITY = 36
-    SPEED = 18
-    FIFTY = 50
-    TWENTY = 20
-    THIRTYFIVE = 35
-    FORTY = 40
-    TEN = 10
-    EXTREME_SPEED = 8
-    LIGHTNING = 4
-    HYPER_SD = 4
+class StepsUOV(Steps):
+    """UOV uses the same dynamic slider"""
+    pass
 
+
+# ==============================
+# PERFORMANCE SETTINGS
+# ==============================
 
 class Performance(Enum):
     QUALITY = 'Quality'
@@ -194,7 +218,24 @@ class Performance(Enum):
 
     @classmethod
     def by_steps(cls, steps: int | str):
-        return cls[Steps(int(steps)).name]
+        """Map a step count to a performance name dynamically"""
+        value = int(steps)
+        if value <= 8:
+            return cls.EXTREME_SPEED
+        elif value <= 10:
+            return cls.TEN
+        elif value <= 20:
+            return cls.TWENTY
+        elif value <= 30:
+            return cls.SPEED
+        elif value <= 35:
+            return cls.THIRTYFIVE
+        elif value <= 40:
+            return cls.FORTY
+        elif value >= 50:
+            return cls.FIFTY
+        else:
+            return cls.QUALITY
 
     @classmethod
     def has_restricted_features(cls, x) -> bool:
@@ -202,11 +243,26 @@ class Performance(Enum):
             x = x.value
         return x in [cls.EXTREME_SPEED.value, cls.LIGHTNING.value, cls.HYPER_SD.value]
 
-    def steps(self) -> int | None:
-        return Steps[self.name].value if self.name in Steps.__members__ else None
+    def steps(self) -> int:
+        """Return the current global step slider value"""
+        return Steps.get_slider()
 
-    def steps_uov(self) -> int | None:
-        return StepsUOV[self.name].value if self.name in StepsUOV.__members__ else None
+    def steps_uov(self) -> int:
+        """Return UOV slider value"""
+        return StepsUOV.get_slider()
 
     def lora_filename(self) -> str | None:
         return PerformanceLoRA[self.name].value if self.name in PerformanceLoRA.__members__ else None
+
+
+# ==============================
+# EXAMPLE USAGE
+# ==============================
+
+if __name__ == "__main__":
+    print("Slider range:", Steps.slider_range())
+    Steps.set_slider(45)
+    print("Current Steps:", Steps.get_slider())
+
+    perf = Performance.by_steps(Steps.get_slider())
+    print("Performance Mode:", perf.value)
