@@ -39,10 +39,10 @@
     "default_styles": [ ],
     "default_aspect_ratio": "896*1152",
     "default_overwrite_step": -1,
-    "checkpoint_downloads": {},
-    "embeddings_downloads": {},
-    "lora_downloads": {
+    "checkpoint_downloads": {
         "Big_Love.safetensors": "https://huggingface.co/dhaneshsaini/SDXL/resolve/main/Big_Love.safetensors"
     },
+    "embeddings_downloads": {},
+    "lora_downloads": {},
     "previous_default_models": []
 }
