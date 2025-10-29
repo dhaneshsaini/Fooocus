@@ -4,7 +4,7 @@
     "default_refiner_switch": 0.5,
     "default_loras": [
         [
-            true,
+            false,
             "ILXL_Realism_Slider_V.1.safetensors",
             1.0
         ],
@@ -15,7 +15,7 @@
         ],
         [
             false,
-            "indian_cuties_lora_v1-10.safetensors",
+            "RawCam_250_v1.safetensors",
             0.1
         ],
         [
@@ -30,7 +30,7 @@
         ],
         [
             false,
-            "Spray_Tan_Slider_Pony.safetensors",
+            "OnliGirl.safetensors",
             0.1
         ],
         [
@@ -71,15 +71,12 @@
     "lora_downloads": {
         "ILXL_Realism_Slider_V.1.safetensors": "https://huggingface.co/dhaneshsaini/LucentXL-Pony-klaabu/resolve/main/ILXL_Realism_Slider_V.1.safetensors",
         "RealSkin_xxXL_v1.safetensors": "https://huggingface.co/dhaneshsaini/LucentXL-Pony-klaabu/resolve/main/RealSkin_xxXL_v1.safetensors",
-        "Breast_Size_Slider.safetensors": "https://huggingface.co/dhaneshsaini/Porn-Craft-By-Stable-Yogi/resolve/main/Breast_Size_Slider.safetensors",
         "amateur_style_v1_pony.safetensors": "https://huggingface.co/dhaneshsaini/Porn-Craft-By-Stable-Yogi/resolve/main/amateur_style_v1_pony.safetensors",
         "puffytits_PONY_v1.safetensors": "https://huggingface.co/dhaneshsaini/Porn-Craft-By-Stable-Yogi/resolve/main/puffytits_PONY_v1.safetensors",
         "body_weight_slider_v1.safetensors": "https://huggingface.co/dhaneshsaini/LucentXL-Pony-klaabu/resolve/main/body_weight_slider_v1.safetensors",
         "Point_and_shoot_v0.1.safetensors": "https://huggingface.co/dhaneshsaini/LucentXL-Pony-klaabu/resolve/main/Point_and_shoot_v0.1.safetensors",
         "Add_Details_v1.2.safetensors": "https://huggingface.co/dhaneshsaini/LucentXL-Pony-klaabu/resolve/main/Add_Details_v1.2.safetensors",
-        "Spray_Tan_Slider_Pony.safetensors": "https://huggingface.co/dhaneshsaini/LucentXL-Pony-klaabu/resolve/main/Spray_Tan_Slider_Pony.safetensors",
         "Panty_Pull_Pony.safetensors": "https://huggingface.co/dhaneshsaini/LucentXL-Pony-klaabu/resolve/main/Panty_Pull_Pony.safetensors",
-        "indian_cuties_lora_v1-10.safetensors": "https://huggingface.co/dhaneshsaini/LUSTIFY/resolve/main/indian_cuties_lora_v1-10.safetensors",
         "RawCam_250_v1.safetensors": "https://huggingface.co/dhaneshsaini/LucentXL-Pony-klaabu/resolve/main/RawCam_250_v1.safetensors",
         "Perfect_Booty_XL_V1.safetensors": "https://huggingface.co/dhaneshsaini/LucentXL-Pony-klaabu/resolve/main/Perfect_Booty_XL_V1.safetensors",
         "Dramatic_Lighting_Slider.safetensors": "https://huggingface.co/dhaneshsaini/LucentXL-Pony-klaabu/resolve/main/Dramatic_Lighting_Slider.safetensors",
