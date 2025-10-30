@@ -1,5 +1,5 @@
 {
-    "default_model": "Babes.safetensors",
+    "default_model": "Babes_Stable_Yogi_SDXL.safetensors",
     "default_refiner": "None",
     "default_refiner_switch": 0.5,
     "default_loras": [
@@ -40,7 +40,7 @@
     "default_aspect_ratio": "896*1152",
     "default_overwrite_step": -1,
     "checkpoint_downloads": {
-        "Babes.safetensors": "https://huggingface.co/dhaneshsaini/Babes_Stable_Yogi/resolve/main/Babes.safetensors"
+        "Babes_Stable_Yogi_SDXL.safetensors": "https://huggingface.co/dhaneshsaini/SDXL/resolve/main/Babes_Stable_Yogi_SDXL.safetensors"
     },
     "embeddings_downloads": {},
     "lora_downloads": {
