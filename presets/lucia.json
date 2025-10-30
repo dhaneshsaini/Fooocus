@@ -37,7 +37,7 @@
     "default_prompt": "",
     "default_prompt_negative": "unrealistic, saturated, high contrast, big nose, painting, drawing, sketch, cartoon, anime, manga, render, CG, 3d, watermark, signature, label",
     "default_styles": [],
-    "default_aspect_ratio": "896*1152",
+    "default_aspect_ratio": "810*1080",
     "default_overwrite_step": -1,
     "checkpoint_downloads": {
         "Juggernaut_XL.safetensors": "https://huggingface.co/dhaneshsaini/Lucia/resolve/main/Juggernaut_XL.safetensors"
