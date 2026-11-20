@@ -93,6 +93,8 @@ def requirements_met(requirements_file):
                 if installed_version not in requirement.specifier:
                     print(f"Version mismatch for {package}: Installed version {version_installed} does not meet requirement {requirement}")
                     return False
+            except importlib.metadata.PackageNotFoundError:
+                return False
             except Exception as e:
                 print(f"Error checking version for {package}: {e}")
                 return False
