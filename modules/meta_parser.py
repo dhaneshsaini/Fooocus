@@ -141,9 +141,13 @@ def get_steps(key: str, fallback: str | None, source_dict: dict, results: list, 
         h = source_dict.get(key, source_dict.get(fallback, default))
         assert h is not None
         h = int(h)
-        # if not in steps or in steps and performance is not the same
-        performance_name = source_dict.get('performance', '').replace(' ', '_').replace('-', '_').casefold()
-        performance_candidates = [key for key in Steps.keys() if key.casefold() == performance_name and Steps[key] == h]
+        perf = source_dict.get('performance', source_dict.get('Performance', ''))
+        perf_steps = performance_to_steps(perf, default=None)
+        if perf_steps is not None and perf_steps == h:
+            results.append(-1)
+            return
+        performance_name = str(perf).replace(' ', '_').replace('-', '_').casefold()
+        performance_candidates = [k for k in Steps.keys() if k.casefold() == performance_name and Steps[k] == h]
         if len(performance_candidates) == 0:
             results.append(h)
             return

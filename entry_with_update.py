@@ -39,8 +39,16 @@ try:
     elif merge_result & pygit2.GIT_MERGE_ANALYSIS_NORMAL:
         print("Update failed - Did you modify any file?")
 except Exception as e:
-    print('Update failed.')
-    print(str(e))
+    try:
+        import subprocess
+        res = subprocess.run(["git", "pull"], capture_output=True, text=True, cwd=root)
+        if res.returncode == 0:
+            print("Git pull succeeded via CLI.")
+        else:
+            print("Git pull via CLI had non-zero exit:", res.stderr.strip() or res.stdout.strip())
+    except Exception:
+        print('Update failed.')
+        print(str(e))
 
 print('Update succeeded.')
 from launch import *
