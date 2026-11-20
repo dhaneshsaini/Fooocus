@@ -194,7 +194,10 @@ class Performance(Enum):
 
     @classmethod
     def by_steps(cls, steps: int | str):
-        return cls[Steps(int(steps)).name]
+        try:
+            return cls[Steps(int(steps)).name]
+        except (ValueError, KeyError):
+            return None
 
     @classmethod
     def has_restricted_features(cls, x) -> bool:
@@ -210,3 +213,22 @@ class Performance(Enum):
 
     def lora_filename(self) -> str | None:
         return PerformanceLoRA[self.name].value if self.name in PerformanceLoRA.__members__ else None
+
+
+def performance_to_steps(perf, default=30) -> int:
+    if isinstance(perf, (int, float)):
+        return max(2, min(80, int(round(perf))))
+    if isinstance(perf, str):
+        if perf.isdigit():
+            return max(2, min(80, int(perf)))
+        for member in Performance:
+            if member.value.casefold() == perf.casefold() or member.name.casefold() == perf.casefold():
+                s = member.steps()
+                if s is not None:
+                    return max(2, min(80, s))
+    if isinstance(perf, Performance):
+        s = perf.steps()
+        if s is not None:
+            return max(2, min(80, s))
+    return default
+

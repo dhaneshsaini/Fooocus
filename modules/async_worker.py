@@ -31,8 +31,22 @@ class AsyncTask:
         self.negative_prompt = args.pop()
         self.style_selections = args.pop()
 
-        self.performance_selection = Performance(args.pop())
-        self.steps = self.performance_selection.steps()
+        raw_perf = args.pop()
+        if isinstance(raw_perf, Performance):
+            self.performance_selection = raw_perf
+            self.steps = self.performance_selection.steps()
+        elif isinstance(raw_perf, (int, float)):
+            self.steps = int(round(raw_perf))
+            self.performance_selection = self.steps
+        elif isinstance(raw_perf, str) and raw_perf.isdigit():
+            self.steps = int(raw_perf)
+            self.performance_selection = self.steps
+        elif isinstance(raw_perf, str) and raw_perf in Performance.values():
+            self.performance_selection = Performance(raw_perf)
+            self.steps = self.performance_selection.steps()
+        else:
+            self.steps = 30
+            self.performance_selection = 30
         self.original_steps = self.steps
 
         self.aspect_ratios_selection = args.pop()
@@ -342,7 +356,7 @@ def worker():
                  ('Fooocus V2 Expansion', 'prompt_expansion', task['expansion']),
                  ('Styles', 'styles',
                   str(task['styles'] if not use_expansion else [fooocus_expansion] + task['styles'])),
-                 ('Performance', 'performance', async_task.performance_selection.value),
+                 ('Performance', 'performance', async_task.performance_selection.value if isinstance(async_task.performance_selection, Performance) else async_task.performance_selection),
                  ('Steps', 'steps', async_task.steps),
                  ('Resolution', 'resolution', str((width, height))),
                  ('Guidance Scale', 'guidance_scale', async_task.cfg_scale),
@@ -942,8 +956,10 @@ def worker():
             if 'fast' in uov_method:
                 skip_prompt_processing = True
                 steps = 0
-            else:
+            elif hasattr(performance, 'steps_uov') and performance.steps_uov() is not None:
                 steps = performance.steps_uov()
+            else:
+                steps = max(2, int(round(steps * 0.6)))
 
             if advance_progress:
                 current_progress += 1
@@ -1229,12 +1245,14 @@ def worker():
         all_steps = steps * async_task.image_number
 
         if async_task.enhance_checkbox and async_task.enhance_uov_method != flags.disabled.casefold():
-            enhance_upscale_steps = async_task.performance_selection.steps()
+            enhance_upscale_steps = async_task.performance_selection.steps() if hasattr(async_task.performance_selection, 'steps') and async_task.performance_selection.steps() is not None else async_task.steps
             if 'upscale' in async_task.enhance_uov_method:
                 if 'fast' in async_task.enhance_uov_method:
                     enhance_upscale_steps = 0
-                else:
+                elif hasattr(async_task.performance_selection, 'steps_uov') and async_task.performance_selection.steps_uov() is not None:
                     enhance_upscale_steps = async_task.performance_selection.steps_uov()
+                else:
+                    enhance_upscale_steps = max(2, int(round(enhance_upscale_steps * 0.6)))
             enhance_upscale_steps, _, _, _ = apply_overrides(async_task, enhance_upscale_steps, height, width)
             enhance_upscale_steps_total = async_task.image_number * enhance_upscale_steps
             all_steps += enhance_upscale_steps_total

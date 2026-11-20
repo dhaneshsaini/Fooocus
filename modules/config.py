@@ -10,7 +10,7 @@ import modules.sdxl_styles
 
 from modules.model_loader import load_file_from_url
 from modules.extra_utils import makedirs_with_log, get_files_from_folder, try_eval_env_var
-from modules.flags import OutputFormat, Performance, MetadataScheme
+from modules.flags import OutputFormat, Performance, MetadataScheme, performance_to_steps
 
 
 def get_config_path(key, default_value):
@@ -424,10 +424,11 @@ default_prompt = get_config_item_or_set_default(
 )
 default_performance = get_config_item_or_set_default(
     key='default_performance',
-    default_value=Performance.SPEED.value,
-    validator=lambda x: x in Performance.values(),
-    expected_type=str
+    default_value=30,
+    validator=lambda x: (isinstance(x, (int, float)) and 2 <= x <= 80) or x in Performance.values() or (isinstance(x, str) and (x.isdigit() and 2 <= int(x) <= 80 or x in Performance.values())),
+    expected_type=None
 )
+default_performance = performance_to_steps(default_performance)
 default_image_prompt_checkbox = get_config_item_or_set_default(
     key='default_image_prompt_checkbox',
     default_value=False,

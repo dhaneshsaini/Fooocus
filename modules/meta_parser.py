@@ -9,7 +9,7 @@ from PIL import Image
 import fooocus_version
 import modules.config
 import modules.sdxl_styles
-from modules.flags import MetadataScheme, Performance, Steps
+from modules.flags import MetadataScheme, Performance, Steps, performance_to_steps
 from modules.flags import SAMPLERS, CIVITAI_NO_KARRAS
 from modules.hash_cache import sha256_from_cache
 from modules.util import quote, unquote, extract_styles_from_prompt, is_json, get_file_from_folder_list
@@ -31,7 +31,7 @@ def load_parameter_button_click(raw_metadata: dict | str, is_generating: bool, i
     get_str('prompt', 'Prompt', loaded_parameter_dict, results)
     get_str('negative_prompt', 'Negative Prompt', loaded_parameter_dict, results)
     get_list('styles', 'Styles', loaded_parameter_dict, results)
-    performance = get_str('performance', 'Performance', loaded_parameter_dict, results)
+    performance = get_performance('performance', 'Performance', loaded_parameter_dict, results)
     get_steps('steps', 'Steps', loaded_parameter_dict, results)
     get_number('overwrite_switch', 'Overwrite Switch', loaded_parameter_dict, results)
     get_resolution('resolution', 'Resolution', loaded_parameter_dict, results)
@@ -78,6 +78,28 @@ def get_str(key: str, fallback: str | None, source_dict: dict, results: list, de
         assert isinstance(h, str)
         results.append(h)
         return h
+    except:
+        results.append(gr.update())
+        return None
+
+
+def get_performance(key: str, fallback: str | None, source_dict: dict, results: list, default=None):
+    try:
+        h = source_dict.get(key, source_dict.get(fallback, default))
+        if h is not None:
+            steps_val = performance_to_steps(h, default=None)
+            if steps_val is not None:
+                results.append(steps_val)
+                return h
+        if 'steps' in source_dict or 'Steps' in source_dict:
+            steps_h = source_dict.get('steps', source_dict.get('Steps'))
+            if steps_h is not None:
+                steps_val = performance_to_steps(steps_h, default=None)
+                if steps_val is not None:
+                    results.append(steps_val)
+                    return steps_h
+        results.append(gr.update())
+        return None
     except:
         results.append(gr.update())
         return None
@@ -416,11 +438,12 @@ class A1111MetadataParser(MetadataParser):
         data['styles'] = str(found_styles)
 
         # try to load performance based on steps, fallback for direct A1111 imports
-        if 'steps' in data and 'performance' in data is None:
+        if 'steps' in data and ('performance' not in data or data.get('performance') is None):
             try:
-                data['performance'] = Performance.by_steps(data['steps']).value
-            except ValueError | KeyError:
-                pass
+                perf_obj = Performance.by_steps(data['steps'])
+                data['performance'] = perf_obj.value if perf_obj is not None else data['steps']
+            except (ValueError, KeyError, AttributeError):
+                data['performance'] = data['steps']
 
         if 'sampler' in data:
             data['sampler'] = data['sampler'].replace(' Karras', '')

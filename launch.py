@@ -12,6 +12,8 @@ os.environ["PYTORCH_ENABLE_MPS_FALLBACK"] = "1"
 os.environ["PYTORCH_MPS_HIGH_WATERMARK_RATIO"] = "0.0"
 if "GRADIO_SERVER_PORT" not in os.environ:
     os.environ["GRADIO_SERVER_PORT"] = "7865"
+if "GRADIO_ANALYTICS_ENABLED" not in os.environ:
+    os.environ["GRADIO_ANALYTICS_ENABLED"] = "False"
 
 ssl._create_default_https_context = ssl._create_unverified_context
 

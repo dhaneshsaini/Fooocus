@@ -440,10 +440,12 @@ def parse_lora_references_from_prompt(prompt: str, loras: List[Tuple[AnyStr, flo
 def remove_performance_lora(filenames: list, performance: Performance | None):
     loras_without_performance = filenames.copy()
 
-    if performance is None:
+    if performance is None or not hasattr(performance, 'lora_filename'):
         return loras_without_performance
 
     performance_lora = performance.lora_filename()
+    if performance_lora is None:
+        return loras_without_performance
 
     for filename in filenames:
         path = Path(filename)
